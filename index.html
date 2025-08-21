@@ -11,11 +11,13 @@
     const elem = document.getElementById("body");
     const elem2 = document.getElementById("body2");
     let thing = 0;
+    let thing2 = 0;
     
     function tho() {
       thing += 1;
+      thing2 += 5;
       elem.style.backgroundColor = thing;
-      elem2.style.color = thing + 5000;
+      elem2.style.color = thing2;
     }
 
     setInterval(tho, 1);
